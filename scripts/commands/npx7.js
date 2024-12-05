@@ -28,7 +28,7 @@ const media = (
 
 	if (body.indexOf("🖕")==0 || body.indexOf("🐸")==0 || body.indexOf("🥱")==0 || body.indexOf("😪")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "-♦𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥♦-\n🔰___•|•-hala abL_//-😦🫵🏼___🔰",
+				body: "●❯────────────────❮●\n         -♦𝐓𝐀𝐍𝐕𝐈𝐑-𝐁𝐎𝐓♦-         \n●❯────────────────❮●\n🔰__𝐇𝐚𝐥𝐚 𝐀𝐛𝐚𝐥_//-🔰\n●❯────────────────❮●",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
