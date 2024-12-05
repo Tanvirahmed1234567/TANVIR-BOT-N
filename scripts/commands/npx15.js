@@ -29,7 +29,7 @@ const media = (
 
   if (body.indexOf("🕌")==0 || body.indexOf("🕋")==0 || body.indexOf("surah")==0 || body.indexOf("surah")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
     var msg = {
-        body: "-♦𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥♦-\n 😊___-•|•-Allah 🖤🥀___😊 ",
+        body: "●❯────────────────❮●\n         -♦𝐓𝐀𝐍𝐕𝐈𝐑-𝐁𝐎𝐓♦-         \n●❯────────────────❮●\n😊___𝐀𝐥𝐥𝐚𝐡 𝐀𝐥𝐦𝐢𝐠𝐡𝐭𝐲__🖤💜\n●❯────────────────❮●",
         attachment: media
       }
       api.sendMessage( msg, threadID, messageID);
