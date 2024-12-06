@@ -76,6 +76,6 @@ https://www.facebook.com/Tanvir Ahmed
 
 ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿⃟ꗥꔸ𝘽𝙊𝙏-𝙊𝙒𝙉𝙀𝙍-𝗙𝗔𝗥𝗛𝗔𝗡-𝗜𝗦𝗟𝗔𝗠ꔸꗥ⃟ꗥ̳̳̳̳̳̳̳̳̳̳̿̿̿̿̿̿̿̿̿̿
 
-─༅༎•🌺ধন্যবাদ সবাইকে🌸༅༎•─\n\n╰•┄┅═╣[-♦𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥♦-]╠═┅┄•╯`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+─༅༎•🌺ধন্যবাদ সবাইকে🌸༅༎•─\n\n╰•┄┅═╣[-♦𝐓𝐀𝐍𝐕𝐈𝐑-𝐁𝐎𝐓♦-]╠═┅┄•╯`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
