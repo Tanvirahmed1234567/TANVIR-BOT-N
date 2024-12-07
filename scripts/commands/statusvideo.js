@@ -53,7 +53,7 @@ module.exports.run = async ({ api, event, args, client, Users, Threads, __GLOBAL
 
   const randomLink = link[Math.floor(Math.random() * link.length)];
 
-  const know = "●❯────────────────❮●\n  -♦𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥♦-  \n●❯────────────────❮●";
+  const know = "●❯────────────────❮●\n         -♦𝐓𝐀𝐍𝐕𝐈𝐑-𝐁𝐎𝐓♦-         \n●❯────────────────❮●";
 
   const callback = () => {
     api.sendMessage({
